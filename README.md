@@ -24,6 +24,7 @@ The hook function receives an array with the following structure (with sample pa
 | `styles` | Array of styles to be included |
 | `config` | Mosaico configuration parameters |
 
+Simply edit existing entries (Mosaico itself has the plugin-name 'mosaico') or add your own plugins/configurations to the array.
 See a sample usage of the hook function at the bottom of the source of `civi_mosaico_plugininterface.php`.
 For a guide to Mosaico plugins, see https://github.com/voidlabs/mosaico/wiki/Mosaico-Plugins.
 
