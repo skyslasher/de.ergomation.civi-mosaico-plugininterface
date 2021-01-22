@@ -3,10 +3,10 @@
 This is a plugin for plugin developers. It empowers them to create plugins for the Mosaico
 e-mail editor for CiviCRM.
 It is one of the successors of the
-[Wordpress integration for CiviMail with Mosaico plugin](https://github.com/skyslasher/de.ergomation.wp-civi-mosaico)
+[Wordpress Integration for CiviMail with Mosaico plugin](https://github.com/skyslasher/de.ergomation.wp-civi-mosaico)
 that is now split into three separate plugins:
 * CiviCRM Mosaico Plugin Interface (this plugin)
-* CiviCRM Flexmailer Embed Images
+* [CiviCRM Flexmailer Embed Images](https://github.com/skyslasher/de.ergomation.civi-flexmailer-embedimages)
 * WordPress CivCRM Mosaico Integration (in the works)
 
 A new hook `hook_civicrm_mosaicoPlugins` is introduced to insert/modify Mosaico configuration and/or Mosaico plugins.
