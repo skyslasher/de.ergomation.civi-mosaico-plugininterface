@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <!-- override default Mosaico URL route with our injection proxy -->
+    <path>civicrm/mosaico/iframe</path>
+    <page_callback>CRM_CiviMosaicoPlugininterface_Page_Editor</page_callback>
+    <title>Mosaico editor with plugin interface</title>
+    <access_arguments>>access CiviMail;create mailings;edit message templates</access_arguments>
+  </item>
+</menu>

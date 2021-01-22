@@ -1,0 +1,3 @@
+# ignore log files and finder databases
+log.txt
+.DS_Store

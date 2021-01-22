@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="de.ergomation.civi-mosaico-plugininterface" type="module">
+  <file>civi_mosaico_plugininterface</file>
+  <name>Plugin interface to Mosaico e-mail editor</name>
+  <description>Implements a plugin interface to the Mosaico e-mail editor so it can be extended by other plugins</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Andreas Hahn</author>
+    <email>civicrm@ergomation.de</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/skyslasher/de.ergomation.civi-mosaico-plugininterface</url>
+    <url desc="Documentation">https://github.com/skyslasher/de.ergomation.civi-mosaico-plugininterface</url>
+    <url desc="Support">https://github.com/skyslasher/de.ergomation.civi-mosaico-plugininterface</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2021-01-22</releaseDate>
+  <version>1.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>Not for productive use</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/CiviMosaicoPlugininterface</namespace>
+  </civix>
+</extension>
