@@ -1,4 +1,4 @@
-# de.ergomation.civi-mosaico-plugininterface
+# CiviCRM Mosaico Plugin Interface
 
 This is a plugin for plugin developers. It empowers them to create plugins for the Mosaico
 e-mail editor for CiviCRM.
