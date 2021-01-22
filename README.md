@@ -2,6 +2,13 @@
 
 This is a plugin for plugin developers. It empowers them to create plugins for the Mosaico
 e-mail editor for CiviCRM.
+It is one of the successors of the
+[Wordpress integration for CiviMail with Mosaico plugin](https://github.com/skyslasher/de.ergomation.wp-civi-mosaico)
+that is now split into three separate plugins:
+* CiviCRM Mosaico Plugin Interface (this plugin)
+* CiviCRM Flexmailer Embed Images
+* WordPress CivCRM Mosaico Integration (in the works)
+
 A new hook `hook_civicrm_mosaicoPlugins` is introduced to insert/modify Mosaico configuration and/or Mosaico plugins.
 
 The hook function receives an array with the following structure (with sample payload):
@@ -63,7 +70,7 @@ cv en civi_mosaico_plugininterface
 
 ## Getting Started
 
-Use the hook in a plugin
+Use the hook in a plugin.
 
 ## Known Issues
 
