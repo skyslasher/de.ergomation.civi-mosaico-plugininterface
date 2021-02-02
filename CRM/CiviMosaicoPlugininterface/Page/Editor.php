@@ -77,12 +77,20 @@ class CRM_CiviMosaicoPlugininterface_Page_Editor extends CRM_Mosaico_Page_Editor
     }
   }
 
+  private function addToArrayRecursive( &$config, $new_config ) {
+    foreach ( $new_config as $config_key => $new_value ) {
+      if ( array_key_exists( $config_key, $config ) && is_array( $config[ $config_key ] ) && is_array( $new_value ) ) {
+        $this->addToArrayRecursive( $config[ $config_key ], $new_value );
+      } else {
+        $config[ $config_key ] = $new_value;
+      }
+    }
+  }
+
   private function addConfigToConfigArray( &$config, $new_config, $key ) {
     if ( array_key_exists( $key, $new_config ) ) {
       if ( is_array( $new_config[ $key ] ) ) {
-        foreach ( $new_config[ $key ] as $config_key => $new_value ) {
-          $config[ $key ][ $config_key ] = $new_value;
-        }
+        $this->addToArrayRecursive( $config[ $key ], $new_config[ $key ] );
       }
     }
   }
