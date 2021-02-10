@@ -7,7 +7,7 @@ It is one of the successors of the
 that is now split into three separate plugins:
 * CiviCRM Mosaico Plugin Interface (this plugin)
 * [CiviCRM Flexmailer Embed Images](https://github.com/skyslasher/de.ergomation.civi-flexmailer-embedimages)
-* WordPress CivCRM Mosaico Integration (in the works)
+* [WordPress CivCRM Mosaico Integration](https://github.com/skyslasher/wp-civi-mosaico)
 
 A new hook `hook_civicrm_mosaicoPlugins` is introduced to insert/modify Mosaico configuration and/or Mosaico plugins.
 
