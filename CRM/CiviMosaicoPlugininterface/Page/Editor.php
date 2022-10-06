@@ -19,7 +19,7 @@ class CRM_CiviMosaicoPlugininterface_Page_Editor extends CRM_Mosaico_Page_Editor
     CRM_Utils_System::civiExit();
   }
 
-  protected function getMosaicoPlugins() {
+  public function getMosaicoPlugins() {
     $plugins = [ 'mosaico' => [
         'plugin' => '',
         'scripts' => $this->getScriptUrls(),
